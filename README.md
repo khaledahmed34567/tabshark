@@ -4,7 +4,7 @@
 
 > Phase 1 of 3: Web application. Phase 2 is the Chrome extension and Phase 3 is the desktop app.
 
-![TabShark](assets/logo.png)
+![TabShark](https://i.ibb.co/vSH2DSH/Picsart-26-11-19-12-11-32-048.jpg)
 
 ---
 
