@@ -79,19 +79,6 @@ Other supported fields: `eth.addr`, `eth.src`, `eth.dst`, `ipv6.addr`, `ip.ttl`,
 | `?` | Open the How to Use guide |
 | `Esc` | Clear the filter or find box, or close the guide |
 
-## Project structure
-
-```
-tabshark/
-  index.html        Markup: splash, workspace, onboarding modal
-  styles.css        Design tokens, layout, animations
-  pcap-parser.js    Binary reader, dissector, flow analysis, sample generator
-  app.js            UI: filter engine, virtual list, tree, hex viewer, onboarding
-  README.md
-  assets/           logo.png (transparent), icon.png (black background), favicon.png
-  fonts/            Azer (Regular, Medium, Bold) and Azal Display
-```
-
 ### How the parser is organized
 
 `pcap-parser.js` exposes one global, `window.TabShark`:
@@ -104,22 +91,6 @@ tabshark/
 ## Privacy
 
 TabShark makes no network requests. Fonts, icons and scripts are all local files. Capture files are read with the browser's File API and never leave the page.
-
-## Visual identity
-
-| Token | Value |
-| --- | --- |
-| Background canvas | `#121212` |
-| Surface and panels | `#1E1E1E` |
-| Elevated and hover | `#262626` |
-| Borders | `#2E2E2E` |
-| Primary accent (Electric Teal) | `#14B8A6` |
-| Secondary accent (Sky Cyan) | `#38BDF8` |
-| Text | `#F3F4F6` and `#9CA3AF` |
-
-Protocol colors: TCP `#A78BFA`, UDP `#60A5FA`, HTTP/HTTPS/TLS `#34D399`, DNS `#2DD4BF`, ICMP/ARP `#FBBF24`, errors `#F87171`.
-
-All icons are inline SVG with a 1.5px stroke. The interface contains no emoji.
 
 ### Brand assets
 
